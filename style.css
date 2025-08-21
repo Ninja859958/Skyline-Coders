@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #a6a6a6;
+    line-height: 1.6;
+ cursor: url('data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMyIiB3aWR0aD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIgMiBMMjYgMTYgMTIgMTYgMTYgMzAgMiAyIFoiIGZpbGw9ImJsdWUiIHN0cm9rZT0iZ3JheSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+'), auto;
+}
+  
+h1 { 
+text-align: left;
+     background: linear-gradient(#0000c1, #0055ff, #6d6d6d, #a6a6a6); 
+     background-clip: text; -webkit-text-fill-color: transparent;
+}
+
+h6 {
+    text-align: right;
+     background: linear-gradient(#0000c1, #00aaff, #6d6d6d, #a6a6a6); 
+     background-clip: text; -webkit-text-fill-color: transparent;
+     font-size: medium;
+}
+
+
+
+img {
+    max-width: 100%;    /* Responsivo: imagem não excede o container */
+    height: auto;       /* Mantém proporção */
+    display: flex;
+    margin: 0 auto; 
+    border-radius: 15%;
+}
+
+.imagens {
+      display: flex;
+      gap: 20px;
+}
+
+h3 {
+    font-size: 1.4rem;  /* Ajuste para tamanho que desejar */
+    margin: 1rem 0;
+    color: #000055;        /* Cor mais escura para contraste */
+    text-align: left;
+    margin: 17px;
+    padding: 0;
+}
+
+h5 {
+    font-size: large;
+}
+
+li {
+    list-style: none;   /* Remove marcadores padrão */
+    margin: 0.5rem 0;
+    color: #24245c;        /* Tom levemente mais escuro que #333 */
+    text-align: left;
+    margin: 17px;
+    padding: 0;
+}
+
+ .começo {
+  background: url(foto\ fundo.png) no-repeat center center;
+  background-size: cover;
+  opacity: 0,6;
+  width: 100%;
+  height: 740px; 
+ padding-top: 23%;
+  align-items: center;
+  color: #fff;
+ 
+   
+}
+
+
+
+button {
+    background-color: #1b005a;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    margin: 0 auto;
+}
+
+.direitos {
+    background-color: #4f4f4f;
+}
+
+button:hover {
+    background-color: #666666;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.footer {
+  background-color: #6b6b6b;
+  padding: 40px 20px 20px;
+  color: #020268;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #333;
+  padding-bottom: 20px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+.footer-column h4 {
+  margin-bottom: 10px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+}
+
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-column li {
+  margin-bottom: 8px;
+  cursor: pointer;
+}
+
+.footer-column p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  font-size: 14px;
+}
+
+.recrutamento {
+  flex: 2;
+  color: white;
+}
+
+.recrutamento p {
+  margin: 0;
+  font-weight: bold;
+}
+
+.recrutamento a {
+  color: white;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+.whatsapp {
+  flex: 1;
+  text-align: right;
+}
+
+.whatsapp-button {
+  background-color: #0ebe3f;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.logo {
+  max-width: 120px;
+  margin-bottom: 15px;
+}
+
+.footer a {
+  color: white;
+  text-decoration: underline;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
+
+/* Media queries para dispositivos de tela pequena (smartphones) */
+@media only screen and (max-width: 600px) {
+    * {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
+
+/* Media queries para dispositivos de tela média (tablets) */
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    * {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
