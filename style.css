@@ -208,6 +208,10 @@ textarea {
     img {
       margin-left: 5%;
     }
+    .equipe {
+      text-align: left;
+      margin-right: 52%;
+    }
 }
 
 /* Media queries para dispositivos de tela média (tablets) */
