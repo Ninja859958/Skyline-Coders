@@ -30,13 +30,9 @@ img {
     max-width: 100%;    /* Responsivo: imagem não excede o container */
     height: auto;       /* Mantém proporção */
     display: flex;
-    margin: 0 auto; 
+    margin-right: 3%; 
     border-radius: 15%;
-}
-
-.imagens {
-      display: flex;
-      gap: 20px;
+    float: right;
 }
 
 h3 {
@@ -58,6 +54,7 @@ li {
     color: #24245c;        /* Tom levemente mais escuro que #333 */
     text-align: left;
     margin: 17px;
+     margin-right: 50%;
     padding: 0;
 }
 
@@ -206,6 +203,10 @@ textarea {
     * {
         display: block;
         margin-bottom: 10px;
+    }
+
+    img {
+      margin-left: 5%;
     }
 }
 
