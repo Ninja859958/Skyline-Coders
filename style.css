@@ -9,7 +9,41 @@ body {
     background-color: #a6a6a6;
     line-height: 1.6;
  cursor: url('data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjMyIiB3aWR0aD0iMzIiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PHBhdGggZD0iTTIgMiBMMjYgMTYgMTIgMTYgMTYgMzAgMiAyIFoiIGZpbGw9ImJsdWUiIHN0cm9rZT0iZ3JheSIgc3Ryb2tlLXdpZHRoPSIyIi8+PC9zdmc+'), auto;
+  padding-top: 70px
 }
+
+/* NAV fixa no topo */
+.nav-fixa {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #a6a6a6;
+  padding: 1px 0;
+  z-index: 1000;
+}
+
+.nav-fixa ul {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-fixa a {
+  text-decoration: none;
+  color: #24245c;
+  font-size: 18px;
+  font-weight: 500;
+  transition: 0.2s;
+}
+
+.nav-fixa a:hover {
+  color: #6d6d6d;
+}
+
   
 h1 { 
 text-align: left;
