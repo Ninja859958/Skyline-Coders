@@ -309,15 +309,15 @@ textarea {
 /* Media queries para dispositivos de tela média (tablets) */
 @media only screen and (min-width: 601px) and (max-width: 1024px) {
     * {
+        width: 30%;
         margin: 0%;
-        margin-left: 0%;
     }
     h3 {
         margin-right: 0%;
-        margin-left: 10%;
+        margin-left: 20%;
     }
     li {
         margin-right: 0%;
-        margin-left: 10%;
+        margin-left: 0%;
     }
 }
